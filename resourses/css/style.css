@@ -28,20 +28,75 @@ html{
     margin: 0 auto;
 }
 
+.box{
+    padding: 1%;
+}
+
 /* -----------------HEADING ------------------ */
 
-h1{
-    margin-top: 0;
-    margin-bottom: 20px;
-    color:#fff;
+section{
+    margin: 50px 0;
+}
+
+h1,h2,h3{
+   
     font-weight: 300;
     text-transform: uppercase;
-    word-spacing: 4px;
-    letter-spacing: 1px;
-    font-size: 240%;
     
 }
 
+h1{
+    font-size: 240%;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color:#fff;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
+
+h3{
+    margin-bottom: 15px;
+    font-size: 110%;
+}
+
+h2:after{
+    display: block;
+    height: 2px;
+    width: 500px;
+    content: " ";
+    background-color: #e67e22;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* -----------------PARAGRAPH ------------------ */
+
+.long-copy{
+    line-height: 150%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+}
+
+.icon-big{
+    font-size: 350%;
+    color: #e67e22;
+    display: block;
+    margin-bottom: 10px;
+}
 /* -----------------BUTTONS ------------------ */
 .btn:link,
 .btn:visited{
